@@ -12,14 +12,6 @@ sap.ui.define([
 
             metadata: {
                 manifest : "json"
-                // "rootView": {
-                //     "viewName" : "logaligroup.SAPUI5.view.App",
-                //     "type" : "XML",
-                //     "async" : true,
-                //     "id" : "app"
-                // }
-                // ctl + k + c
-                // ctl + k + U
             },
 
             init: function () {
