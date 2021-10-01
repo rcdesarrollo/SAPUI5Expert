@@ -47,5 +47,4 @@ sap.ui.define([
         });
 
 
-        // Mc
     });
