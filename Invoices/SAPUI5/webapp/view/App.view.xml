@@ -5,6 +5,7 @@
     >
 
     <Button text="{i18n>showHelloButtonText}" press=".onShowHello"></Button>
+    
     <Input value="{/recipient/name}"
         description="Hello {/recipient/name}"
         valueLiveUpdate="true"
