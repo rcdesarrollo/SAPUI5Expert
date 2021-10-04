@@ -24,4 +24,5 @@
                             </content>
                         </Panel>
         <core:Fragment fragmentName="logaligroup.SAPUI5.view.Form01" type="XML" />
+        
 </mvc:View>    
