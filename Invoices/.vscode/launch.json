@@ -8,7 +8,7 @@
   ],
   "configurations": [
     {
-      "name": "SAPUI5 - Run Configuration",
+      "name": "SAPUI5",
       "cwd": "${workspaceFolder}/SAPUI5",
       "runtimeArgs": [
         "run-script",
@@ -19,13 +19,17 @@
       "runtimeExecutable": "npm",
       "args": [
         "--",
-        "--ui5"
+        "--ui5",
+        "--backendConfig",
+        "[{\"path\":\"/V2\",\"destination\":\"Northwind\"}] "
       ],
       "windows": {
         "runtimeExecutable": "npm.cmd",
         "args": [
           "--",
-          "--ui5"
+          "--ui5",
+          "--backendConfig",
+          "\"[{\\\"path\\\":\\\"/V2\\\",\\\"destination\\\":\\\"Northwind\\\"}]\" "
         ]
       },
       "console": "internalConsole",

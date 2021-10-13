@@ -1,0 +1,2 @@
+> Consume Sap Service
+/V2/Northwind/Northwind.svc/
