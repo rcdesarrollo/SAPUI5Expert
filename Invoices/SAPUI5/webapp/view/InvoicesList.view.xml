@@ -17,6 +17,7 @@
             </Toolbar>
         </headerToolbar>
         <items>
+        
             <ObjectListItem title="{northwind>Quantity} x {northwind>ProductName}" 
                 number="{ parts : [ {path : 'northwind>ExtendedPrice'},
                                     {path : 'currency>/eur'} ],
@@ -32,6 +33,7 @@
                 </firstStatus>
 -->                
             </ObjectListItem>
+
         </items>
     </List>
 
