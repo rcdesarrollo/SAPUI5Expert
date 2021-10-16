@@ -8,14 +8,17 @@
     <!-- sap icon explorer-->
     <!-- https://sapui5.hana.ondemand.com/sdk/test-resources/sap/m/demokit/iconExplorer/webapp/index.html -->
                         <Panel  headerText="{i18n>helloPanel}" 
-                            class="sapUiResponsiveMargin" width="auto">
+                            class="sapUiResponsiveMargin" 
+                            width="auto"
+                            expandable="{device>/system/phone}"
+                            expanded="{= !${device>/system/phone}}">
                             <content>
                                 <Button id="helloDialogButton" 
                                     icon="sap-icon://action" 
                                     text="{i18n>helloDialogBut}" press=".onOpenDialog"
-                                    class="sapUiSmallMarginEnd"/>                                
+                                    class="sapUiSmallMarginEnd sapUiVisibleOnlyOnDesktop"/>                                
                                 <Button text="{i18n>showHelloButtonText}" press=".onShowHello"
-                                    class="sapUiSmallMarginEnd"/>                                
+                                    class="sapUiSmallMarginEnd sapUiHideOnDesktop"/>                                
                                 <Input value="{/recipient/name}"
                                     valueLiveUpdate="true"
                                     width="60%"/>
